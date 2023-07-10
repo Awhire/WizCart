@@ -21,11 +21,11 @@ const Navbar = () => {
 
   return (
     <nav className="nav-tab">
-      <a href="#" className="cursor-pointer">
+      
         <img src={logo} alt="logo" className="logo" />
-      </a>
+      
       <ul className="nav-links">
-        <li><a href="#">Home</a></li>
+        <li>Home</li>
         <li>Products</li>
         <li onClick={showCart} className="name">
           cart<span>{cartItems.length + headsets.length}</span>
