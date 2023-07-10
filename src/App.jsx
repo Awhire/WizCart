@@ -14,10 +14,10 @@ function App() {
   const { toggle } = useSelector(state => state.modal)
 
   return (
-    <div>
+    <div className='m-0 p-0'>
        <ToastContainer />
        <Navbar />
-        <div className='header bg-red-700'>
+        <div className='header'>
           <Hero /> 
         </div>
        {toggle && <CartItems />}
