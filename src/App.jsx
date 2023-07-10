@@ -14,7 +14,7 @@ function App() {
   const { toggle } = useSelector(state => state.modal)
 
   return (
-    <div className='m-0 p-0'>
+    <div>
        <ToastContainer />
        <Navbar />
         <div className='header'>
