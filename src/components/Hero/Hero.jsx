@@ -1,3 +1,4 @@
+import React from 'react'
 import './Hero.css'
 import images from '../../assets/logo1.png'
 

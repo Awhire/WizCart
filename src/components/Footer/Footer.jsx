@@ -1,3 +1,4 @@
+import React from 'react'
 import './Footer.css'
 import images from '../../assets/g-play.png'
 
