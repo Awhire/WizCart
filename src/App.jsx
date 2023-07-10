@@ -17,7 +17,7 @@ function App() {
     <div>
        <ToastContainer />
        <Navbar />
-        <div className='header'>
+        <div className='header bg-slate-400'>
           <Hero /> 
         </div>
        {toggle && <CartItems />}
