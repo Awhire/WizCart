@@ -40,7 +40,7 @@ const CartItem = ({ item }) => {
       <div className="flex justify-between  pr-4 md:pr-16 mb-5">
         <button
           type="button"
-          className="cursor-pointer text-[brown] pl-4 font-bold "
+          className="cursor-pointer text-[brown] pl-3 font-bold "
           onClick={remove}
         >
           Remove
