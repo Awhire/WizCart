@@ -1,4 +1,5 @@
 import React from 'react';
+import '../../node_modules/tailwindcss/tailwind.css';
 import { useDispatch } from 'react-redux';
 import './product.css'
 import { addToCart } from '../../features/HeadPhone/headPhoneSlice';

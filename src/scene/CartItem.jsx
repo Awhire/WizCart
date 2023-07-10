@@ -1,4 +1,5 @@
 import React from "react";
+import '../../node_modules/tailwindcss/tailwind.css';
 import { TbCurrencyNaira } from "react-icons/tb";
 import { useDispatch } from "react-redux";
 import { increaseQuantity, decreaseQuantity, removeFromCart } from "../features/Cart/cartSlice";
