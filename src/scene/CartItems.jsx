@@ -10,7 +10,6 @@ const CartItems = () => {
   const { cartItems } = useSelector((state) => state.cart);
   const { headset } = useSelector((state) => state.head);
   const dispatch = useDispatch();
-  const { toggle } = useSelector(state => state.modal)
 
   // const [allItems, setAllItems] = useState([])
   let total = 0;
@@ -31,7 +30,7 @@ const CartItems = () => {
   // }, [cartItems, headset])
 
   return (
-    <div className={`fixed top-0 right-[-100%] z-10 h-full w-full md:w-[65%] lg:w-[40%] bg-gray-100  scrollbox box ${toggle ? 'toggle' : ''} `}>
+    <div className={`fixed top-0 right-0 z-10 h-full w-full md:w-[65%] lg:w-[40%] bg-gray-100  scrollbox box`}>
       <div
         className="absolute top-[85px] md:top-24 right-5 font-bold text-lg text-[brown] cursor-pointer"
         onClick={() => dispatch(showToggle())}
