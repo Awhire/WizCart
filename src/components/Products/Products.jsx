@@ -1,5 +1,4 @@
 import React from "react"
-import '../../../node_modules/tailwindcss/tailwind.css';
 import Product from "./Product"
 import { useSelector } from "react-redux"
 // import HeadsetProduct from "./HeadSetProduct"

@@ -1,5 +1,4 @@
 import React from "react";
-import '../../node_modules/tailwindcss/tailwind.css';
 import CartItem from "./CartItem";
 import { useDispatch, useSelector } from "react-redux";
 import { TbCurrencyNaira } from "react-icons/tb";
