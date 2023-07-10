@@ -1,3 +1,4 @@
+import React from "react";
 import { TbCurrencyNaira } from "react-icons/tb";
 import { useDispatch } from "react-redux";
 import { increaseQuantity, decreaseQuantity, removeFromCart } from "../features/Cart/cartSlice";

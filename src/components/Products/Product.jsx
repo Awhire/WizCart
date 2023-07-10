@@ -1,3 +1,4 @@
+import React from 'react';
 import { useDispatch } from 'react-redux';
 import './Product.css'
 import { addToCart } from '../../features/Cart/cartSlice';

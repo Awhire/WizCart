@@ -1,3 +1,4 @@
+import React from 'react';
 import { useDispatch } from 'react-redux';
 import './product.css'
 import { addToCart } from '../../features/HeadPhone/headPhoneSlice';
